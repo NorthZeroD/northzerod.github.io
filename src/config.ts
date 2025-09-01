@@ -1,7 +1,7 @@
 import type { Site, Ui, Features } from './types'
 
 export const SITE: Site = {
-  website: 'https://northzerod.github.io/',
+  website: 'https://northzerod.github.io',
   base: '/',
   title: 'NorthZero | Blog',
   description:
@@ -162,7 +162,7 @@ export const FEATURES: Features = {
   giscus: [
     true,
     {
-      'data-repo': 'NorthZeroD/nzd-blog',
+      'data-repo': 'NorthZeroD/northzerod.github.io',
       'data-repo-id': 'R_kgDOPoF7dA',
       'data-category': 'Announcements',
       'data-category-id': 'DIC_kwDOPoF7dM4Cu2we',
