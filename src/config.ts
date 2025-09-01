@@ -2,7 +2,7 @@ import type { Site, Ui, Features } from './types'
 
 export const SITE: Site = {
   website: 'https://northzerod.github.io/',
-  base: '/nzd-blog',
+  base: '/',
   title: 'NorthZero | Blog',
   description:
     'NorthZero\'s Blog',
@@ -162,16 +162,16 @@ export const FEATURES: Features = {
   giscus: [
     true,
     {
-      'data-repo': 'lin-stephanie/astro-antfustyle-theme',
-      'data-repo-id': 'R_kgDOLylKbA',
-      'data-category': 'Giscus',
-      'data-category-id': 'DIC_kwDOLylKbM4Cpugn',
+      'data-repo': 'NorthZeroD/nzd-blog',
+      'data-repo-id': 'R_kgDOPoF7dA',
+      'data-category': 'Announcements',
+      'data-category-id': 'DIC_kwDOPoF7dM4Cu2we',
       'data-mapping': 'title',
       'data-strict': '0',
       'data-reactions-enabled': '1',
       'data-emit-metadata': '0',
-      'data-input-position': 'bottom',
-      'data-lang': 'en',
+      'data-input-position': 'top',
+      'data-lang': 'zh-CN',
     },
   ],
 }
