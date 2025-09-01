@@ -1,14 +1,14 @@
 import type { Site, Ui, Features } from './types'
 
 export const SITE: Site = {
-  website: 'https://astro-antfustyle-theme.vercel.app/',
-  base: '/',
-  title: 'Astro AntfuStyle Theme',
+  website: 'https://northzerod.github.io/',
+  base: '/nzd-blog',
+  title: 'NorthZero | Blog',
   description:
-    'A customizable, feature-rich Astro theme for blog and portfolio creation',
-  author: 'Stephanie Lin',
-  lang: 'en',
-  ogLocale: 'en_US',
+    'NorthZero\'s Blog',
+  author: 'NorthZeroD',
+  lang: 'zh-Hans',
+  ogLocale: 'zh_CN',
   imageDomains: ['cdn.bsky.app', 'images.unsplash.com'],
 }
 
