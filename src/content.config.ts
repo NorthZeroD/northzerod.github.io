@@ -36,12 +36,7 @@ const projects = defineCollection({
 const releases = defineCollection({
   loader: githubReleasesLoader({
     mode: 'repoList',
-    repos: [
-      'withastro/astro',
-      'withastro/starlight',
-      'lin-stephanie/astro-loaders',
-      'lin-stephanie/astro-antfustyle-theme',
-    ],
+    repos: ['NorthZeroD/NzdHiddenPlayer'],
     monthsBack: 2,
     entryReturnType: 'byRelease',
     clearStore: true,
@@ -51,7 +46,7 @@ const releases = defineCollection({
 const prs = defineCollection({
   loader: githubPrsLoader({
     search:
-      'repo:withastro/astro repo:withastro/starlight repo:lin-stephanie/astro-antfustyle-theme',
+      'repo:NorthZeroD/NzdHiddenPlayer',
     monthsBack: 1,
     clearStore: true,
   }),

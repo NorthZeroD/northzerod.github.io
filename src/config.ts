@@ -16,16 +16,16 @@ export const UI: Ui = {
   internalNavs: [
     {
       path: '/blog',
-      title: 'Blog',
+      title: '博客',
       displayMode: 'alwaysText',
-      text: 'Blog',
+      text: '博客',
     },
-    // {
-    //   path: '/projects',
-    //   title: 'Projects',
-    //   displayMode: 'alwaysText',
-    //   text: 'Projects',
-    // },
+    {
+      path: '/projects',
+      title: '项目',
+      displayMode: 'alwaysText',
+      text: '项目',
+    },
     // {
     //   path: '/highlights',
     //   title: 'Highlights',
@@ -35,16 +35,16 @@ export const UI: Ui = {
     // },
     {
       path: '/photos',
-      title: 'Photos',
+      title: '图集',
       displayMode: 'iconToTextOnMobile',
-      text: 'Photos',
+      text: '图集',
       icon: 'i-ri-camera-ai-line',
     },
     {
       path: '/shorts',
-      title: 'Shorts',
+      title: '笔记',
       displayMode: 'iconToTextOnMobile',
-      text: 'Shorts',
+      text: '笔记',
       icon: 'i-meteor-icons-grid',
     },
     // {
@@ -57,14 +57,14 @@ export const UI: Ui = {
   ],
   socialLinks: [
     {
-      link: 'https://github.com/NorthZeroD/northzerod.github.io',
-      title: "My blog's repository",
+      link: 'https://github.com/NorthZeroD',
+      title: '前往我的Github主页',
       displayMode: 'alwaysIcon',
       icon: 'i-uil-github-alt',
     },
     {
       link: 'https://space.bilibili.com/1977584035',
-      title: 'My bilibili',
+      title: '前往我的Bilibili主页',
       displayMode: 'alwaysIcon',
       icon: 'i-ri-bilibili-fill',
     },
@@ -112,7 +112,7 @@ export const UI: Ui = {
     cursorType: '',
     showNewTabIcon: false,
   },
-  postMetaStyle: 'minimal',
+  postMetaStyle: 'icon',
 }
 
 /**
