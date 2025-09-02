@@ -3,7 +3,7 @@ import type { Site, Ui, Features } from './types'
 export const SITE: Site = {
   website: 'https://northzerod.github.io',
   base: '/',
-  title: 'NorthZero | Blog',
+  title: 'NorthZero',
   description:
     'NorthZero\'s Blog',
   author: 'NorthZeroD',
@@ -57,22 +57,16 @@ export const UI: Ui = {
   ],
   socialLinks: [
     {
-      link: 'https://github.com/lin-stephanie/astro-antfustyle-theme',
-      title: 'AntfuStyle on Github',
+      link: 'https://github.com/NorthZeroD/northzerod.github.io',
+      title: "My blog's repository",
       displayMode: 'alwaysIcon',
       icon: 'i-uil-github-alt',
     },
     {
-      link: 'https://x.com/astrodotbuild',
-      title: 'Astro on Twitter',
+      link: 'https://space.bilibili.com/1977584035',
+      title: 'My bilibili',
       displayMode: 'alwaysIcon',
-      icon: 'i-ri-twitter-x-fill',
-    },
-    {
-      link: 'https://bsky.app/profile/astro.build',
-      title: 'Astro on Bluesky',
-      displayMode: 'alwaysIcon',
-      icon: 'i-meteor-icons-bluesky',
+      icon: 'i-ri-bilibili-fill',
     },
   ],
   navBarLayout: {
