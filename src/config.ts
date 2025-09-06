@@ -42,9 +42,9 @@ export const UI: Ui = {
     },
     {
       path: '/shorts',
-      title: '笔记',
+      title: '章节',
       displayMode: 'iconToTextOnMobile',
-      text: '笔记',
+      text: '章节',
       icon: 'i-meteor-icons-grid',
     },
     // {
