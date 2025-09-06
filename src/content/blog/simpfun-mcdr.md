@@ -83,7 +83,7 @@ pip3 install mcdreforged
 
 然后运行实例。输出：
 
-```log {1-2,41-43} collapse={3-40,44-46}
+```log {42} collapse={3-40,44-46}
 mise hint use multiple versions simultaneously with mise use python@3.12 python@3.11
 mise ~/.aio/mise/config.toml tools: python@3.13.3
 Looking in indexes: https://mirrors.aliyun.com/pypi/simple
@@ -153,6 +153,11 @@ WARNING: Running pip as the 'root' user can result in broken permissions and con
 
 mcdreforged
 ```
+
+> [!tip] 技巧
+> 在**vscode**编辑器中，选中代码块，使用`ctrl+/`快捷切换注释。
+> > [!note]- 图示
+> > ![图示](../../assets/simpfun/mcdr/13.png)
 
 然后运行实例。输出：
 
@@ -232,6 +237,8 @@ Initialized environment for MCDReforged in /home/container
 > [!tip] 已经准备好服务端了？
 > 直接将服务端**所有文件**上传到MCDR的`server`目录！
 > 
+> 别忘了[配置端口](#配置端口)！
+>
 > 然后跳到[配置MCDR](#配置mcdr)章节。
 > > [!note]- 图示
 > > ![图示](../../assets/simpfun/mcdr/6.png)
@@ -275,7 +282,7 @@ ${openjdk21} -Xms15G -Xmx15G -jar leaf-1.21.8-101.jar --nogui
 ```
 
 > [!warning] 注意
-> `leaf-1.21.8-101.jar`是我所用服务端核心的名称，应当**换成你上传的核心名称**。
+> `leaf-1.21.8-101.jar`是笔者所用服务端核心的名称，应当**换成你上传的核心名称**。
 >
 > `-Xmx`用来指定服务器最**大**内存，其后接内存大小(带单位)。建议设置为你的实例**可用内存大小减1G**。
 >
@@ -522,13 +529,13 @@ handler: bukkit_handler
 
 **恭喜！你完成了MCDR的配置🎉**
 
-## 启动
+## 启动MCDR
 
 ### 命令
 
-在`start.sh`中，将之前所用的命令全部注释掉，添加新的命令：
+在`start.sh`中，将之前安装MC服务端的[启动命令](#启动命令)注释掉，添加新的命令：
 
-```bash title='start.sh' {3-10} ins={12}
+```bash title='start.sh' {9,10} ins={12}
 #!/bin/bash
 
 # mise use -g python@3.13.3
