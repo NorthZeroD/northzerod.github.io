@@ -38,7 +38,7 @@ export const UI: Ui = {
       title: '图集',
       displayMode: 'iconToTextOnMobile',
       text: '图集',
-      icon: 'i-ri-camera-ai-line',
+      icon: 'i-material-symbols:photo-library-outline-rounded',
     },
     {
       path: '/shorts',
