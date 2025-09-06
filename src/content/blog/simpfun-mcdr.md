@@ -22,7 +22,7 @@ ogImage: true
 ## 参考文档
 
 > [!note]- 参考
-> [**安装 - MCDReforged 2.15.1 文档**](https://docs.mcdreforged.com/zh-cn/latest/quick_start/index.html)
+> [**快速上手 — MCDReforged 2.15.1 文档**](https://docs.mcdreforged.com/zh-cn/latest/quick_start/index.html)
 >
 > [**环境调用方法 - 简幻欢社区文档**](https://www.yuque.com/simpfox/simpdoc/customer-aio-how-to-use-mise)
 >
