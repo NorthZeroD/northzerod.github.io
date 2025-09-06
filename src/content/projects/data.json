@@ -5,5 +5,12 @@
     "desc": "一个Minecraft Bukkit插件，让玩家能够完全隐藏自己",
     "icon": "i-mdi:minecraft",
     "category": "Nzd Minecraft Plugins"
+  },
+  {
+    "id": "minecraft-assets-remapping",
+    "link": "https://github.com/NorthZeroD/minecraft-assets-remapping",
+    "desc": "一个简单的工具，用来重映射Minecraft的散列资源文件",
+    "icon": "i-mdi:language-python",
+    "category": "Nzd Useful Projects"
   }
 ]
