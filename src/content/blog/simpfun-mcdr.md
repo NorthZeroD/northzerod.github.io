@@ -21,7 +21,7 @@ ogImage: true
 
 ## 参考文档
 
-> [!note]- 参考
+> [!note] 参考
 > [**快速上手 — MCDReforged 2.15.1 文档**](https://docs.mcdreforged.com/zh-cn/latest/quick_start/index.html)
 >
 > [**环境调用方法 - 简幻欢社区文档**](https://www.yuque.com/simpfox/simpdoc/customer-aio-how-to-use-mise)
@@ -253,8 +253,8 @@ Initialized environment for MCDReforged in /home/container
 挑选你喜欢的服务端，从其官网下载服务端核心：
 
 - [Leaf](https://www.leafmc.one/download) *推荐([为什么?](https://www.leafmc.one/zh/docs/benchmark/entity-performance))*
-- [Purpur]((https://purpurmc.org/download/purpur))
-- [Paper]((https://papermc.io/downloads/paper))
+- [Purpur](https://purpurmc.org/download/purpur)
+- [Paper](https://papermc.io/downloads/paper)
 - [Leaves](https://leavesmc.org/downloads/leaves)
 
 [*不知道怎么选？看这里...*](https://nitwikit.8aka.org/Java/start/server-core-choose/plugin)
@@ -629,7 +629,7 @@ Done (17.474s)! For help, type "help"
 
 ### 验证MCDR
 
-在MC多人游戏板块，使用`play.simpfun.cn:你的实例端口`作为地址加入服务器。
+在MC多人游戏板块，使用`play.simpfun.cn:你的实例端口号`作为地址加入服务器。
 
 > [!tip]- 图示
 > ![图示](../../assets/simpfun/mcdr/9.png)
@@ -648,3 +648,5 @@ Done (17.474s)! For help, type "help"
 **大功告成！你成功部署了基于MCDR的Minecraft服务器！恭喜恭喜！🎉🎉🎉**
 
 **\\(^o^)/**
+
+**欢迎大家的评论和[issues](https://github.com/NorthZeroD/northzerod.github.io/issues)哦♥️**
