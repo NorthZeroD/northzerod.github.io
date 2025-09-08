@@ -2,7 +2,7 @@
 title: 在简幻欢上安装和使用MCDR
 description: 在简幻欢上安装和使用MCDR
 pubDate: 2025-09-07T06:04:00+08:00
-lastModDate: ''
+lastModDate: '2025-09-08T12:31:00+08:00'
 toc: true
 share: false
 giscus: true
@@ -13,9 +13,9 @@ ogImage: true
 
 ### MCDR 是什么
 
-> MCDReforged (MCDR, 下同) 是一个管理 Minecraft 服务器的工具，拥有自定义插件系统。完全无需修改 Minecraft 服务器本身
+> MCDReforged (MCDR, 下同) 是一个管理 Minecraft 服务器的工具，拥有自定义插件系统。完全无需修改 Minecraft 服务器本身。
 >
-> 游戏内计算器，玩家高亮，计分板操作，结构文件管理，备份/回档... 你可以用 MCDR 和其插件控制整个 Minecraft 服务器
+> 游戏内计算器，玩家高亮，计分板操作，结构文件管理，备份/回档... 你可以用 MCDR 和其插件控制整个 Minecraft 服务器。
 >
 > [*更多...*](https://docs.mcdreforged.com/zh-cn/latest/quick_start/introduction.html)
 
@@ -243,7 +243,7 @@ Initialized environment for MCDReforged in /home/container
 > > [!note]- 图示
 > > ![图示](../../assets/simpfun/mcdr/6.png)
 
-> [!note] 注
+> [!note] 说明
 > 篇幅有限，仅演示[Leaf](https://www.leafmc.one/download)服务端的部署流程。
 > 
 > 这些步骤同样适用于其他[**插件服务端**](https://nitwikit.8aka.org/Java/start/server-core-choose/plugin)，如[Paper](https://papermc.io/downloads/paper), [Purpur](https://purpurmc.org/download/purpur)。
@@ -350,7 +350,7 @@ You need to agree to the EULA in order to run the server. Go to eula.txt for mor
 
 编辑其内容，将`eula`字段的值改为`true`：
 
-```toml title='eula.txt' ins='true'
+```toml title='eula.txt' {3} ins='true'
 #By changing the setting below to TRUE you are indicating your agreement to our EULA (https://aka.ms/MinecraftEULA).
 #Sat Sep 06 21:50:39 CST 2025
 eula=true
@@ -360,9 +360,9 @@ eula=true
 
 在服务端核心目录，即`server`目录中，找到`server.properties`。
 
-编辑其内容，将以下字段的值改为你的实例端口号：
+编辑其内容，将`query.port`和`server-port`字段的值改为你的实例端口号：
 
-```toml title='server.properties' {44,56} collapse={1-43,45-55,57-65} ins='20814'
+```toml title='server.properties' {44,56} collapse={3-43,45-55,57-65} ins='20814'
 #Minecraft server properties
 #Sun Sep 07 02:31:21 CST 2025
 accepts-transfers=false
@@ -437,7 +437,7 @@ white-list=false
 
 ## 配置MCDR
 
-> MCDR 的配置文件是 config.yml。它位于 MCDR 的工作目录中。
+> MCDR 的配置文件是 `config.yml`。它位于 MCDR 的工作目录中。
 
 本教程中，`config.yml`与`start.sh`在同个目录，即`/home/container`中。
 
@@ -446,11 +446,11 @@ white-list=false
 
 > 在启动时，MCDR 将尝试加载配置文件，并将缺失的选项(如果有)添加到你的配置文件末尾。如果配置文件不存在，MCDR 则将生成默认配置文件并退出。
 >
-> 配置文件使用 YAML 格式。
+> 配置文件使用 [YAML](https://zh.wikipedia.org/wiki/YAML) 格式。
 >
-> 当 MCDR 运行时，你可以使用 !!MCDR reload config 命令(或其缩写 !!MCDR r cfg)来重载配置文件。
+> 当 MCDR 运行时，你可以使用 `!!MCDR reload config` 命令(或其缩写 `!!MCDR r cfg`)来重载配置文件。
 
-> [!note] 注
+> [!note] 说明
 > 本教程仅介绍必要配置。完整配置说明见[配置 — MCDReforged 2.15.1 文档](https://docs.mcdreforged.com/zh-cn/latest/configuration.html)。
 
 ### language
@@ -461,7 +461,7 @@ white-list=false
 
 将`language`字段的值更改为`zh_cn`以使用简体中文作为MCDR的输出信息的语言。
 
-```yaml title='config.yml' ins=/zh_cn$/
+```yaml title='config.yml' {3} ins=/zh_cn$/
 # The language that MCDR will use to display information
 # Examples: "en_us", "zh_cn", "zh_tw"
 language: zh_cn
@@ -475,7 +475,7 @@ language: zh_cn
 
 将`start_command`字段的值更改为[启动命令](#启动命令)章节中所使用的命令。
 
-```yaml title='config.yml' ins='${openjdk21} -Xms15G -Xmx15G -jar leaf-1.21.8-101.jar --nogui'
+```yaml title='config.yml' {7} ins='${openjdk21} -Xms15G -Xmx15G -jar leaf-1.21.8-101.jar --nogui'
 # The command to start the server, it can be a string or a list of string
 # (shell mode) If it's a string, the command will be executed as a shell command in a shell environment
 # (exec mode) If it's a list of strings, the command will be executed directly
@@ -495,9 +495,9 @@ start_command: ${openjdk21} -Xms15G -Xmx15G -jar leaf-1.21.8-101.jar --nogui
 
 将`handler`字段的值更改为符合你服务端种类的处理器。
 
-本教程中，使用Leaf服务端，是Paper下游分支，故使用`bukkit_handler`。
+本教程中，使用[Leaf](https://www.leafmc.one/zh/docs/getting-started)服务端，是Paper下游分支，故使用`bukkit_handler`。
 
-```yaml title='config.yml' ins=/bukkit_handler$/
+```yaml title='config.yml' {12} ins=/bukkit_handler$/
 # The handler to the specific way to parse the standard output text of the server and the correct command for server control
 #   vanilla_handler    , for Vanilla / Carpet / Fabric server
 #   beta18_handler     , for Vanilla server in legacy versions, e.g. < 1.7, or even beta1.8
