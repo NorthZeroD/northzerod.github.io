@@ -1,7 +1,7 @@
 ---
-title: NorthZero
+title: 友链
 subtitle: ''
-description: NorthZero's Blog
+description: ''
 bgType: plum
 toc: false
 ogImage: false
@@ -20,9 +20,11 @@ import RenderPage from '~/components/views/RenderPage.astro'
   <StandardLayout title={frontmatter.title} subtitle={frontmatter.subtitle}>
     <RenderPage
       slot="article"
-      collectionType="home"
+      collectionType="friends"
       id="index"
       pageToc={frontmatter.toc}
     />
   </StandardLayout>
 </BaseLayout>
+
+
