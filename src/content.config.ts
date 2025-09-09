@@ -99,6 +99,10 @@ const feeds = defineCollection({
   }),
 })
 
+const friends = defineCollection({
+  loader: glob({ base: './src/content/friends', pattern: 'index.{md,mdx}' }),
+})
+
 export const collections = {
   pages,
   home,
@@ -111,4 +115,5 @@ export const collections = {
   changelog,
   streams,
   feeds,
+  friends
 }

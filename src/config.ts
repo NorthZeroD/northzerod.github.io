@@ -34,6 +34,13 @@ export const UI: Ui = {
     //   icon: 'i-ri-screenshot-line',
     // },
     {
+      path: '/friends',
+      title: '友链',
+      displayMode: 'iconToTextOnMobile',
+      text: '友链',
+      icon: 'i-icon-park-outline:friends-circle',
+    },
+    {
       path: '/photos',
       title: '图集',
       displayMode: 'iconToTextOnMobile',
