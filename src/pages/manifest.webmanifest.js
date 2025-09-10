@@ -4,8 +4,7 @@ export async function GET() {
   const manifest = {
     name: 'NorthZero',
     short_name: 'NZD',
-    description:
-      'NorthZero\'s Blog',
+    description: "NorthZero's Blog",
     icons: [
       { src: `${base}icon-192.png`, type: 'image/png', sizes: '192x192' },
       { src: `${base}icon-512.png`, type: 'image/png', sizes: '512x512' },
@@ -19,8 +18,8 @@ export async function GET() {
     scope: base,
     start_url: base,
     display: 'standalone',
-    theme_color: '#fff',
-    background_color: '#fff',
+    theme_color: '#17191e',
+    background_color: '#17191e',
   }
 
   return new Response(JSON.stringify(manifest), {
