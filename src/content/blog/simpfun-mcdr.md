@@ -2,7 +2,7 @@
 title: 在简幻欢上安装和使用MCDR
 description: 在简幻欢上安装和使用MCDR
 pubDate: 2025-09-07T06:04:00+08:00
-lastModDate: '2025-09-08T12:31:00+08:00'
+lastModDate: 2025-09-13T01:50:00+08:00
 toc: true
 share: false
 giscus: true
