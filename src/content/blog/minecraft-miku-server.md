@@ -1,8 +1,8 @@
 ---
-title: 欢迎加入Miku Server | Minecraft 服务器
-description: 欢迎加入Miku Server | Minecraft 服务器
+title: 欢迎加入Miku Server · Minecraft 服务器
+description: 欢迎加入Miku Server · Minecraft 服务器
 pubDate: 2025-09-13T02:10:00+08:00
-lastModDate: 2025-09-13T02:10:00+08:00
+lastModDate: 2025-10-24T01:00:00+08:00
 toc: true
 share: false
 giscus: true
