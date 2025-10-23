@@ -19,7 +19,7 @@ const { title, description, ogImage, pubDate, lastModDate } = Astro.props
 const siteName = new URL(SITE.website).hostname
 
 const pageTitle =
-  title && title !== SITE.title ? `${title} | ${SITE.title}` : SITE.title
+  title && title !== SITE.title ? `${title} - ${SITE.title}` : SITE.title
 
 const pageDescription = description || SITE.description
 
@@ -126,7 +126,7 @@ const webPageData = {
 <link rel="apple-touch-icon" href={withBasePath('/apple-touch-icon.png')} />
 
 <!-- Manifest -->
-<link rel="manifest" href={withBasePath('/manifest.webmanifest')} />
+<link rel="manifest" href={withBasePath('/app.webmanifest')} />
 
 <!-- Sitemap -->
 <link rel="sitemap" href={withBasePath('/sitemap-index.xml')} />
