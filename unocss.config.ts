@@ -7,6 +7,7 @@ import {
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
+import { createLocalFontProcessor } from '@unocss/preset-web-fonts/local'
 
 import { UI } from './src/config'
 import projecstData from './src/content/projects/data.json'
@@ -108,10 +109,21 @@ export default defineConfig({
     }),
     presetWebFonts({
       fonts: {
-        sans: 'Inter:400,600,800',
-        mono: 'DM Mono:400,600',
-        condensed: 'Roboto Condensed',
+        sans: 'LXGW WenKai Mono:300,400,700',
+        mono: 'JetBrains Mono:400,600',
+        // condensed: 'LXGW WenKai Mono',
+        // customFontName: 'LXGW WenKai Mono',
       },
+      processors: createLocalFontProcessor({
+        // Directory to cache the fonts
+        cacheDir: 'node_modules/.cache/unocss/fonts',
+
+        // Directory to save the fonts assets
+        fontAssetsDir: 'public/assets/fonts',
+
+        // Base URL to serve the fonts from the client
+        fontServeBaseUrl: '/assets/fonts',
+      }),
     }),
   ],
 

@@ -36,6 +36,7 @@
     "@types/nprogress": "^0.2.3",
     "@types/p5": "^1.7.6",
     "@typescript-eslint/parser": "^8.46.0",
+    "@unocss/preset-web-fonts": "^66.5.4",
     "@unocss/reset": "66.5.3",
     "astro": "^5.14.4",
     "astro-expressive-code": "^0.41.3",

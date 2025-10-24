@@ -19,11 +19,11 @@ export default defineEcConfig({
 
   /* Styles */
   styleOverrides: {
-    uiFontFamily: "'DM Mono', 'Input Mono', 'Fira Code', 'monospace'",
+    uiFontFamily: "'JetBrains Mono', 'monospace', 'LXGW WenKai Mono'",
     uiFontSize: '1em',
     codeBackground: (context) =>
       context.theme.name === 'vitesse-dark' ? '#0e0e0e' : '#fafafa',
-    codeFontFamily: "'DM Mono', 'Input Mono', 'Fira Code', 'monospace'",
+    codeFontFamily: "'JetBrains Mono', 'monospace', 'LXGW WenKai Mono'",
     codeFontSize: '14.72px',
     codeLineHeight: '1.4',
     codePaddingBlock: '0.8571429em',

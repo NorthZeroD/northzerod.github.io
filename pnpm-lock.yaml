@@ -53,6 +53,9 @@ importers:
       '@typescript-eslint/parser':
         specifier: ^8.46.0
         version: 8.46.0(eslint@9.37.0(jiti@2.6.1))(typescript@5.9.3)
+      '@unocss/preset-web-fonts':
+        specifier: ^66.5.4
+        version: 66.5.4
       '@unocss/reset':
         specifier: 66.5.3
         version: 66.5.3
@@ -1238,6 +1241,9 @@ packages:
   '@unocss/core@66.5.3':
     resolution: {integrity: sha512-sGGBgtIfH3Ch7syIzJvA86iIVhSjfGThHBSDA0kFgGTBiYv2VBaUq0UpDfeMpda3LSg59LfEL5Fqa9kUqju5xQ==}
 
+  '@unocss/core@66.5.4':
+    resolution: {integrity: sha512-UDS2CRgyQCEFH+5kStDyJd7OFtgkIUZYn5Ahr5z7v3jc/pEfeOJ0mxsNAr+FgMS/xb17vy4sVFvx3jj/FwMZ1A==}
+
   '@unocss/extractor-arbitrary-variants@66.5.3':
     resolution: {integrity: sha512-QBJCCBFfNOyVlXeDh0h1K2ZvreS5UAbPg+EUPngIIT9hVHIeKatXfCpeMYYt5ZmFZbqX3Zf4MKdguxbGZU9xHQ==}
 
@@ -1270,6 +1276,9 @@ packages:
 
   '@unocss/preset-web-fonts@66.5.3':
     resolution: {integrity: sha512-frgl2zQEyHWg5LGwkFg8HH3d4py4tGYdl9OR7XpR19L5Yj/xapRqz/JZDcGzF4nhdxAlhC4V/6p30hycc7y2Xg==}
+
+  '@unocss/preset-web-fonts@66.5.4':
+    resolution: {integrity: sha512-FQ/P/a1fSmGkkjWn/FNmErwK5YtsuX2VrkHsEa9DTP372td8Oea3hkK40UUYj3zRUivA71PmjVwhbBf+35nAiA==}
 
   '@unocss/preset-wind3@66.5.3':
     resolution: {integrity: sha512-AEgidZkpdCFKjXmCUSJgucxz/IqT4atLUQiq8x8fEKSuPo8rH2CtmO4Bllt9uJMS3GrGNqyrtPixjz5mknC0ZQ==}
@@ -2901,9 +2910,6 @@ packages:
 
   nlcst-to-string@4.0.0:
     resolution: {integrity: sha512-YKLBCcUYKAg0FNlOBT6aI91qFmSiFKiluk655WzPF+DDMA02qIyy8uiRqI8QXtcFpEvll12LpL5MXqEmAZ+dcA==}
-
-  node-fetch-native@1.6.6:
-    resolution: {integrity: sha512-8Mc2HhqPdlIfedsuZoc3yioPuzp6b+L5jRCRY1QzuWZh2EGJVQrGppC6V6cF0bLdbW0+O2YpqCA25aF/1lvipQ==}
 
   node-fetch-native@1.6.7:
     resolution: {integrity: sha512-g9yhqoedzIUm0nTnTqAQvueMPVOuIY16bqgAJJC8XOOubYFNwz6IER9qs0Gq2Xd0+CecCKFjtdDTMA4u4xG06Q==}
@@ -5308,6 +5314,8 @@ snapshots:
 
   '@unocss/core@66.5.3': {}
 
+  '@unocss/core@66.5.4': {}
+
   '@unocss/extractor-arbitrary-variants@66.5.3':
     dependencies:
       '@unocss/core': 66.5.3
@@ -5365,6 +5373,11 @@ snapshots:
   '@unocss/preset-web-fonts@66.5.3':
     dependencies:
       '@unocss/core': 66.5.3
+      ofetch: 1.4.1
+
+  '@unocss/preset-web-fonts@66.5.4':
+    dependencies:
+      '@unocss/core': 66.5.4
       ofetch: 1.4.1
 
   '@unocss/preset-wind3@66.5.3':
@@ -7644,8 +7657,6 @@ snapshots:
     dependencies:
       '@types/nlcst': 2.0.3
 
-  node-fetch-native@1.6.6: {}
-
   node-fetch-native@1.6.7: {}
 
   node-mock-http@1.0.3: {}
@@ -7721,7 +7732,7 @@ snapshots:
   ofetch@1.4.1:
     dependencies:
       destr: 2.0.5
-      node-fetch-native: 1.6.6
+      node-fetch-native: 1.6.7
       ufo: 1.6.1
 
   ohash@2.0.11: {}
