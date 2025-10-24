@@ -2,7 +2,7 @@
 title: Rime输入法 · 初音未来主题
 description: Rime输入法 · 初音未来主题
 pubDate: 2025-10-24T06:04:00+08:00
-lastModDate: 2025-10-24T06:04:00+08:00
+lastModDate: 2025-10-24T21:30:00+08:00
 toc: true
 share: false
 giscus: true
@@ -21,7 +21,7 @@ ogImage: true
 
 ## 使用
 
-### weasel.yaml
+### 1. 编辑 weasel.yaml
 
 在`weasel.yaml`中找到`preset_color_schemes`字段，添加以下内容：
 
@@ -54,7 +54,7 @@ preset_color_schemes:
     candidate_shadow_color: 0x00000000
 ```
 
-### weasel.custom.yaml
+### 2. 编辑 weasel.custom.yaml
 
 在`weasel.custom.yaml`中，将`patch`的`style/color_scheme`改成`miku`。
 
@@ -69,13 +69,25 @@ patch:
   "style/color_scheme": miku
 ```
 
-### 重新部署
+### 3. 重新部署
 
 最后在系统托盘右键Rime图标，选择`重新部署`。
 
 ![重新部署](../../assets/rime-miku-theme/3.webp)
 
-## 最后
+## 推荐
+
+### 霞鹜文楷
+
+超棒的文楷字体！你现在所看到的这行字便是用的:link[霞鹜文楷]{#lxgw/LxgwWenKai}！
+
+### 万象拼音
+
+不知道选哪个词库？那就快来试试:link[Rime万象拼音输入方案]{#amzxyz/rime_wanxiang}！
+
+真正实现**聪明的输入法懂你心意**！
+
+## 后记
 
 如果喜欢这个主题，就为:link[Rime Miku Theme]{#NorthZeroD/rime-miku-theme}点个⭐吧！
 
