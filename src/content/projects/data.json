@@ -1,16 +1,30 @@
 [
   {
-    "id": "NzdHiddenPlayer",
-    "link": "https://github.com/NorthZeroD/NzdHiddenPlayer",
-    "desc": "一个Minecraft Bukkit插件，让玩家能够完全隐藏自己",
-    "icon": "i-mdi:minecraft",
-    "category": "Nzd Minecraft Plugins"
-  },
-  {
     "id": "minecraft-assets-remapping",
     "link": "https://github.com/NorthZeroD/minecraft-assets-remapping",
     "desc": "一个简单的工具，用来重映射Minecraft的散列资源文件",
     "icon": "i-mdi:language-python",
     "category": "Nzd Useful Projects"
+  },
+  {
+    "id": "minecraft-pinyin",
+    "link": "https://github.com/NorthZeroD/minecraft-pinyin",
+    "desc": "生成Minecraft Rime词库，以及汉语拼音资源包，支持全拼、各种双拼和首字母！",
+    "icon": "i-mdi:language-python",
+    "category": "Nzd Useful Projects"
+  },
+  {
+    "id": "rime-miku-theme",
+    "link": "https://github.com/NorthZeroD/rime-miku-theme",
+    "desc": "Rime输入法 · 初音未来主题",
+    "icon": "i-icon-park-outline:theme",
+    "category": "Nzd Useful Projects"
+  },
+  {
+    "id": "NzdHiddenPlayer",
+    "link": "https://github.com/NorthZeroD/NzdHiddenPlayer",
+    "desc": "一个Minecraft Bukkit插件，让玩家能够完全隐藏自己",
+    "icon": "i-mdi:minecraft",
+    "category": "Nzd Minecraft Plugins"
   }
 ]
