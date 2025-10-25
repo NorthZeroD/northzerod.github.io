@@ -15,7 +15,7 @@ import type { SatoriOptions } from 'satori'
 import type { html } from 'satori-html'
 import type { BgType } from '../src/types'
 
-const Inter = readFileSync('plugins/og-template/Inter-Regular-24pt.ttf')
+const LXGWWenKai = readFileSync('plugins/og-template/LXGWWenKai-Regular.ttf')
 
 const satoriOptions: SatoriOptions = {
   // debug: true,
@@ -23,10 +23,10 @@ const satoriOptions: SatoriOptions = {
   height: 630,
   fonts: [
     {
-      name: 'Inter',
+      name: 'LXGW WenKai',
       weight: 400,
       style: 'normal',
-      data: Inter,
+      data: LXGWWenKai,
     },
   ],
 }
