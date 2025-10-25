@@ -2,14 +2,14 @@
 title: 记录一起OBS与百度翻译的冲突
 description: 记录一起OBS与百度翻译的冲突
 pubDate: 2025-10-25T18:00:00+08:00
-lastModDate: 2025-10-25T18:00:00+08:00
+lastModDate: 2025-10-25T18:30:00+08:00
 toc: true
 share: false
 giscus: true
 ogImage: true
 ---
 
-在使用OBS插件:link[Input Overlay]{id=https://obsproject.com/forum/resources/input-overlay.552/}的时候，遇到输入叠层无法采集的问题，排查一圈发现是:link[百度翻译桌面端]{id=https://fanyi.baidu.com/home}的问题。
+在使用OBS插件:link[Input Overlay]{id=https://obsproject.com/forum/resources/input-overlay.552/}的时候，遇到输入叠层无法采集的问题，排查一圈发现是:link[百度翻译桌面端]{id=https://fanyi.baidu.com/home}造成的。
 
 其实早就异象了，只是我没想到是百度翻译的问题（
 
