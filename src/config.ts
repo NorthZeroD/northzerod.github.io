@@ -15,6 +15,12 @@ export const SITE: Site = {
 export const UI: Ui = {
   internalNavs: [
     {
+      path: '/sponsors',
+      title: '感谢赞助者♥️',
+      displayMode: 'alwaysText',
+      text: '感谢赞助者♥️',
+    },
+    {
       path: '/blog',
       title: '博客',
       displayMode: 'alwaysText',

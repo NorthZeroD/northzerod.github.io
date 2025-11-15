@@ -1,0 +1,30 @@
+---
+title: 赞助者
+subtitle: '♥️感谢你们的赞助♥️'
+description: ''
+bgType: plum
+toc: false
+ogImage: false
+---
+
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import StandardLayout from '~/layouts/StandardLayout.astro'
+import RenderPage from '~/components/views/RenderPage.astro'
+
+<BaseLayout
+  title={frontmatter.title}
+  description={frontmatter.description}
+  bgType={frontmatter.bgType}
+  ogImage={frontmatter.ogImage}
+>
+  <StandardLayout title={frontmatter.title} subtitle={frontmatter.subtitle}>
+    <RenderPage
+      slot="article"
+      collectionType="sponsors"
+      id="index"
+      pageToc={frontmatter.toc}
+    />
+  </StandardLayout>
+</BaseLayout>
+
+
