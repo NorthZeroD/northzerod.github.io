@@ -70,6 +70,12 @@ export const UI: Ui = {
   ],
   socialLinks: [
     {
+      link: 'https://afdian.com/a/NorthZeroD',
+      title: '前往我的爱发电主页',
+      displayMode: 'alwaysIcon',
+      icon: 'i-simple-icons-afdian',
+    },
+    {
       link: 'https://github.com/NorthZeroD',
       title: '前往我的Github主页',
       displayMode: 'alwaysIcon',
