@@ -10,6 +10,6 @@
 
 > *天哲地理，共公卿好*
 
-:::image-a{href="https://blog.fhowo.top"}
+:::image-a{href="https://blog.afingpo.top"}
 ![头像](https://cn.cravatar.com/avatar/73950caa66bb4def92adf280f9609714?s=512)(style: width:200px;)
 :::
