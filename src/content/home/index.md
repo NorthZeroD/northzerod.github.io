@@ -4,6 +4,8 @@
 
 ## 最新文章
 
+[CLion翻译插件不支持远程开发导致快速文档失效](../blog/clion-translation-plugin-issue)
+
 [记录一起OBS与百度翻译的冲突](../blog/conflict-between-obs-and-baidu-translate)
 
 [Rime输入法 · 初音未来主题](../blog/rime-miku-theme)
